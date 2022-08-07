@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+.fundocateg{
+    background-color: rgb(0, 0, 0);
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    z-index: -99;
+    top: 80px;
+  }
+.categorias-pt{
+    border-top: 1px solid #fff;
+    display: flex;
+    font-weight: bold;
+    margin-top: 3px;
+    padding-top: 5px;
+    color:white;
+    justify-content: space-around;
+    height: 37px;
+    align-items: center;
+    
+
+}
+.todas-categorias-pt{
+    width: 200px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding-left: 10px;
+    border-radius: 3px;
+  
+}
+.itens-categpt a{
+    text-decoration: none;
+    color: #fff;
+}
+.itens-categpt a:hover{
+   
+    color: rgb(186, 186, 186);
+}
+
+
+@media (max-width:1200px){
+    .itens-categpt{
+        display: none;
+    }
+    .categorias-pt{
+        justify-content: flex-start;
+        padding-left: 10px;
+    }
+}
+
+.mainproduto{
+    display: flex;
+ 
+    justify-content: space-between;
+    margin-top: 40px;
+    
+    width: 100%;
+}
+.secproduto1{
+    width: 69%;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    height: 600px;
+    display: flex;
+    padding: 0 10px;
+}
+.secproduto2{
+    margin-left: 13px;
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    height: 600px;
+}
+.divimgmudar{
+    text-align: center;
+}
+.mudarimgpd{
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid black;
+}
+.imagensprodutopd{
+    height: 350px;
+    width: 350px;
+}
+.divsecpd1{
+
+    display: flex; 
+    flex-direction:column;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.divsecpd2{
+    width: 50%;
+}
+.tituloprodutopd{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.divops{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    width: 100%;
+    font-size: 20px;
+    margin: 15px 0 50px 0;
+
+}   
+.imagenavaliacaopd{
+    height: 20px;
+    margin-left: 5px;
+}
+.sapanavaliacao{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+.favoritar{
+    height: 25px;
+}
+.imagemfavoritar{
+    display: flex;
+    align-items: center;
+}
+.opscompras{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.imgopsprotudos{
+    height: 50px;
+}
+.opsprotudos{
+    border: 1px solid black;
+    margin-top: 10px;
+    display: block;
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+}
+.divdevolução{
+
+    margin-top: 80px;
+    text-align: end;
+}
+.divdevolução a{
+    color: black;
+    font-weight: bold;
+    margin-right: 50px;
+    
+}
+
+.divdp1{
+    border-top: 1px solid rgb(146, 146, 146);
+    padding-top: 30px;
+}
+.imputfrete{
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+.buttonfrete{
+    height: 40px;
+    width: 40px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.imagen-adc-carrinho{
+    height: 20px;
+    margin-right: 7px;
+}
+.buttoncomprar{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    border-radius: 3px;
+    height: 40px;
+    width: 200px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.button-adc-carrinho{
+    border: 1px solid black;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.divestrelas{
+    background-color: #F1F1F1;
+    min-height: 130px;
+    margin: 80px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.h2estrelas{
+    font-size: 22px;
+}
+.pestrelas{
+    margin: 10px 0;
+    color: #383838;
+    font-size: 18px;
+}
+@media (max-width: 1010px){
+    .mainproduto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .secproduto1{
+        width: 98%;
+
+    }
+    .secproduto2{
+        margin-top: 30px;
+        width: 90%;
+    }
+    .valorproduto{
+
+        width: 300px;
+        margin: 0 auto;
+    }
+   
+}
+@media (max-width: 740px){
+    .opsimagens{
+        display: none;
+    }
+    .secproduto1{
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        padding-top: 50px;
+    }
+    .divsecpd2{
+        width: 90%;
+    }
+    .imagensprodutopd{
+        height: 200px;
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    .divdp1{
+     
+        padding-top: 10px;
+    }
+    .divdevolução{
+
+        margin-top: 80px;
+        height: 70px;
+    }
+}
+@media (max-width: 520px){
+    .tituloprodutopd{
+        font-size: 20px;
+    }
+    .imagensprodutopd{
+        height: 180px;
+        width: 180px;
+       
+    }
+}
+@media (max-width: 770px){
+   .divestrelas{
+    flex-direction: column-reverse; 
+   }
+}
+@media (max-width: 620px){
+    .h2estrelas{
+        font-size: 20px; 
+    }
+    .pestrelas{
+        font-size: 15px;
+    }
+ }
+

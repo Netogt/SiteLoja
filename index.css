@@ -1,0 +1,470 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+body{
+  background-color: #F1F1F1;
+
+}
+
+
+/*top1*/
+.fundotopbl{
+  background-color: #000000;
+  height: 90px;
+  width: 100%;
+  position: absolute;
+  z-index: -98;
+  top: 0;
+}
+
+.topsite{
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px 10px;
+  position: relative;
+  color: white;
+  font-size: 15px;
+}
+
+.idioma{
+  position: absolute;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+.imgbandeira{
+  height: 20px;
+}
+.icontop{
+  height: 15px;
+  margin-right: 5px;
+}
+.buttonstop{
+  display: flex;
+  margin-right: 30px;
+}
+
+.butonschaild{
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+}
+.carrinhoconpras{
+  display: flex;
+  align-items: center;
+  background-color: #808080;
+  height: 35px;
+  position: relative;
+  padding: 0 10px;
+  left: 0.7%;
+}
+
+@media (max-width: 820px){
+  .texfav{
+    display: none;
+  }
+  .buttonstop{
+    margin-right: 0;
+  }
+}
+@media (max-width: 600px){
+  .texcarrinho{
+    display: none;
+  }
+  .carrinhoconpras{
+    left: 1.7%;
+  }
+}
+@media (max-width: 600px){
+  .ptbr{
+    display: none;
+  }
+}
+/*top2*/
+.top2{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+
+}
+.divlogo{
+  width: 20%;
+
+}
+.imglogost{
+  height: 30px;
+}
+.imglogost2{
+  display:  none;
+  height: 30px;
+}
+
+.caixadepesquisa{
+  display: flex;
+  border-radius: 100px;
+  height: 30px;    
+  background-color: #fff;
+  width: 90%;
+}
+.inputpes{
+  height: 100%;
+  width: 95%;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  border-radius: 100px 0 0 100px; 
+  padding: 0 30px;
+  text-align: initial;
+  outline: none;
+}
+
+
+.bi-search:hover{
+  color:#0000FF;
+}
+.divcateg{
+  width: 25%;
+  height: 391px;
+  border: 0.7px solid black;
+
+}
+.caixadepesquisa button{
+  background-color: #fff;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+}
+.menutopo{
+  color: #fff;
+  font-size: 30px;
+}
+.caixapaipesq{
+  width: 80%;
+
+}
+
+@media (max-width:820px){
+  .caixapaipesq{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (max-width:600px){
+  .caixadepesquisa{
+    width: 70%;
+    height: 25px;
+  }
+  .caixadepesquisa button{
+    height: 25px;
+    width: 25px;
+  }
+}
+@media (max-width:500px){
+  .caixadepesquisa{
+    width: 70%;
+    height: 25px;
+  }
+  .caixadepesquisa button{
+    height: 25px;
+    width: 25px;
+  }
+  .imglogost{
+    display: none;
+  }
+  .imglogost2{
+    display: block;
+  }
+  .divlogo{
+    width: 10%;
+  }
+  .caixapaipesq{
+    display: flex;
+    justify-content: center;
+  }
+  .caixadepesquisa{
+    width: 100%;
+   
+  }
+}
+/* section 2 */
+
+.topcard{
+  background-color: black;
+  color: white;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-weight: bolder;
+  
+}
+.bi-list-ul{
+  margin-right: 5px;
+}
+
+.itens-categ1{
+  font-weight: bold;
+  background-color: #FFFFFF;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.itens-categ2{
+  font-weight: bold;
+  background-color: #F0F0F0;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+
+}
+.sectionmain{
+  display: flex;
+  margin: 10px 0;
+  justify-content: space-between;
+
+}
+.divslide1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+
+}
+
+@media (max-width: 1200px){
+  .sectionmain{
+    flex-direction: column;
+  }
+  .divcateg{
+    width: 100%;
+    height: 151px;
+    margin-bottom: 10px;
+  }
+  .div-itens{
+    height: 105px;
+  
+  }
+  .linhascategoria{
+    display: flex;
+    height: 50%;
+    background-color: #0000FF;
+  }
+  .linhascategoria div{
+    width: 25%;
+    border-bottom: 1px solid rgb(162, 162, 162);
+    height: 100%;
+ 
+  }
+}
+@media (max-width: 670px){
+  .linhascategoria div{
+   font-size: 13px;
+  }
+}
+@media (max-width: 550px){
+  .linhascategoria div{
+    font-size: 10px;
+   }
+}
+
+
+
+
+.ds{
+  display: flex;
+  flex-direction:column; 
+  align-items:center;
+  max-width: 250px;
+  
+}
+
+.imgproduto{
+  height:150px;
+  margin: 15px;
+}
+.secproduto{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+.descproduto{
+  font-size:25px;
+  color:rgb(75, 75, 75)
+}
+.preçoproduto{
+  font-size:20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+
+
+
+
+
+@media (max-width: 580px){
+  .ds{
+      width: 50%;
+  }
+}
+
+
+
+/*SLIDE*/
+.card {
+  position: relative;
+  
+  width: 860px;
+  height: 385px;
+  overflow: hidden;
+
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*Light blue cover above the slide show*/
+.card::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 900;
+
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(140, 22, 115, 0.2);
+}
+
+.card_part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 7;
+
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  
+  transform: translateX( 700px );
+  background-image: url(slide/imagem1.jpg );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+}
+
+
+.card_part.card_part-two {
+  z-index: 6;
+  background-image: url(slide/imagem2.jpg );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: 7s;
+}
+
+.card_part.card_part-three {
+  z-index: 5;
+  background-image: url(slide/imagem3.jpg );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: 14s;
+}
+
+.card_part.card_part-four {
+  z-index: 4;
+  background-image: url(slide/imagem4.jpg );
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation-delay: 21s;
+}
+
+
+@keyframes opaqTransition {
+  3% { transform: translateX( 0 ); }
+  25% { transform: translateX( 0 ); }
+  28% { transform: translateX( -1000px ); }
+  100% { transform: translateX( -1000px ); }
+}
+
+
+@media (max-width: 780px){
+  .divslide1{
+    display: none;
+  }
+}
+/*part second*/
+.ds{
+  height: 300px;
+  border: 3px solid #F1F1F1;
+  background-color: #fff;
+}
+.sectionprotutos1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mostmais{
+  border: 0.5px solid #d7d7d7;
+  height: 40px;
+  width: 230px;
+  margin: 10px 0;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bold;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+
+}
+.topprodutos{
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 2px 10px;
+  width: 230px;
+  text-align: center;
+
+}
+
+
+
+
+footer{
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+footer img{
+  height: 30px;
+  margin-bottom: 20px;
+}
+footer span{
+  margin: 10px 0;
+  color:#acacac;
+}
