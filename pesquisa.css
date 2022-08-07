@@ -1,0 +1,92 @@
+.estrelasfiltro{
+    height: 20px;
+}
+.dsps{
+    width: 50%;
+}
+.sectionspesquisa{
+    display: flex;
+}
+.sectionsfiltrosps{
+    background-color: #fff;
+    margin-right: 30px;
+    width: 50%;
+    padding: 30px;
+
+}
+.spantextopesquisa{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;    
+    font-weight: bold;
+    padding-left: 30px;
+}
+.iniciofiltros{
+    border-top: 1px solid rgb(146, 146, 146) ;
+    margin-top: 30px;
+    padding-top: 20px;
+  
+}
+.spanpreçops {
+    font-weight: bold;
+}
+.divfiltropreço{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgb(146, 146, 146) ;
+}
+.preçofiltropesquisa{
+    width: 50px;
+}
+.divfiltropreço div{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.textoordernar{
+    height: 50px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px; 
+}
+
+.vid1{
+   
+    display: flex;
+    column-gap: 10px;
+    display: flex;
+    column-gap: 10px ;
+    align-items: center;
+ 
+}
+.botaoordenar{
+    display: none;
+}
+.buttonfiltropesquisan{
+    font-weight: bold;
+    display: none;
+    
+}
+
+@media (max-width:1000px){
+    .sectionsfiltrosps{
+        display: none;
+    }
+    .buttonfiltropesquisan{
+        display: block;
+    }
+}
+@media (max-width:520px){
+    .botaoordenar{
+        display: block;
+    }
+    .opçõesordenar{
+        display: none;
+    }
+}

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imagens/logosn.png" type="image/x-icon">
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="produto.css">
+        <link rel="stylesheet" href="pesquisa.css">
+        <title>PowerFit</title>
+    
+    </head>
+    <body >
+        <section class="fundotopbl"></section>
+        <div class="fundocateg"></div>
+        <section style="max-width: 1300px; margin: 0 auto;">
+            <header class="topsite">
+                <div class="idioma"><img class="icontop" src="imagens/bandeirabr.png" alt=""> <span class="ptbr">PORTUGUES BR</span></div>
+                <section class="buttonstop">
+                    <div class="butonschaild"><img class="icontop" src="imagens/email2.png" alt=""><span class="texfav">FALE CONOSCO</span></div>
+                    <div class="butonschaild"><img class="icontop" src="imagens/coração.png" alt=""><span class="texfav">FAVORITOS</span></div>
+                    <div class="butonschaild"><img class="icontop" src="imagens/logar.png" alt=""><span class="texfav">Minha conta</span></div>
+                </section>
+                <section class="carrinhoconpras">
+                    <img class="icontop" src="imagens/carrinhobranconv.png" alt="" >
+                    <span class="texcarrinho">MEU CARRINHO R$ 00</span>
+                </section>
+            </header>
+            <main>
+                <section class="top2" >
+                    <div class="divlogo">
+                        <img class="imglogost" id="imglogost" src="imagens/logo.png" alt="">
+                        <img class="imglogost2" id="imglogost1" src="imagens/logosn.png" alt="">
+                    </div>
+                <div  class="caixapaipesq">
+                        <form class="caixadepesquisa" id="caixadepesquisa" action="buscar.php" method="Get">
+                            <input class="inputpes" type="search" placeholder="Busque aqui" id="pesquisa" name="pesquisa">
+                            <button type="submit" style="font-size: 20px; cursor:pointer; border:none; " class="bi bi-search"></button>
+                        </form>
+                </div>
+                </section>
+            
+                <section class="categorias-pt">      
+                    <div class="todas-categorias-pt"> <i class="bi bi-list-ul"></i> CATEGORIAS</div>
+                    <div class="itens-categpt"><a href="">APARELHOS</a></div>
+                    <div class="itens-categpt"><a href="">CREATINA</a></div>
+                    <div class="itens-categpt"><a href="">EQUIPAMENTOS</a></div>
+                    <div class="itens-categpt"><a href="">HIPERCALORICO</a></div>
+                    <div class="itens-categpt"><a href="">MULTIVITAMINICO</a></div>
+                    <div class="itens-categpt"><a href="">PRE-TREINO</a></div>
+                    <div class="itens-categpt"><a href="">ROUPAS</a></div>
+                    <div class="itens-categpt"><a href="">WHEY-PROTEIN</a></div>
+                </section>
+                <section>
+                    <div class="spantextopesquisa"><span >Você pesquisou por: mouse</span></div>
+                    <div class="sectionspesquisa">
+                        <section class="sectionsfiltrosps">
+                            <span><strong>filtrar por:</strong></span>
+                            <div class="iniciofiltros">
+                                <div class="div1filtro">
+                                    <span class="spanpreçops">Preço</span>
+                                    <div class="divfiltropreço">
+                                        <div><input type="radio" name="filtropreço"> <span>Até R$ 30</span></div>
+                                        <div><input type="radio" name="filtropreço"> <span>R$ 40 - R$ 60</span></div>
+                                        <div><input type="radio" name="filtropreço"> <span>R$ 60 - R$ 80</span></div>
+                                        <div><input type="radio" name="filtropreço"> <span>R$ 80 - R$ 100</span></div>
+                                        <div><input type="radio" name="filtropreço"> <span>R$ 100 - R$ 120</span></div>
+                                        <div>
+                                            <input class="preçofiltropesquisa" type="text" name="" id="">
+                                            <span>até</span>
+                                            <input class="preçofiltropesquisa" type="text" name="" id="">
+                                        </div>
+                                     </div>
+                                </div>
+                                <div>
+                                    <span class="spanpreçops">avaliação</span>
+                                    <div class="divfiltropreço">
+                                        <div >
+                                            <input type="checkbox"><img class="estrelasfiltro" src="imagens/5 estrelas.png" alt="">
+                                        </div>
+                                        <div> 
+                                            <input type="checkbox"><img class="estrelasfiltro" src="imagens/4estrela.png" alt="">
+                                        </div>
+                                        <div> 
+                                            <input type="checkbox"><img class="estrelasfiltro" src="imagens/3estrela.png" alt="">
+                                        </div>
+                                        <div>
+                                            <input type="checkbox"><img class="estrelasfiltro" src="imagens/2estrela.png" alt=""></div>
+                                        <div> 
+                                        <div>
+                                            <input type="checkbox"><img class="estrelasfiltro" src="imagens/1estrela.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section style="padding: 0 20px 0 0;">
+                            <div class="textoordernar">
+                                <div class="vid1">
+                                    <span><strong>Ordernar :</strong></span>
+                                    <i class="bi bi-arrow-down-up botaoordenar"></i>
+                                    <input class="opçõesordenar" type="text" name="" id="">
+                                </div>
+                                <div class=" vid1 buttonfiltropesquisan">
+                                    <i class="bi bi-funnel"></i>
+                                    <span >filtrar</span>
+                                </div>
+                            </div>
+                            <div class="row"> 
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+                                <div class="col ds dsps">
+                                    <img class="imgproduto" src="imagens/hipercalorico.jpg" alt="">
+                                    <section class="secproduto">
+                                        <h1 class="descproduto">Hipercalorico</h1>
+                                        <span class="preçoproduto">R$ 40,00</span>
+                                        <span>10 vendidos</span>
+                                    </section>
+                                </div>
+
+                            </div>
+                        </section>
+                    </div>
+                </section>
+
+
+
+
+
+
+
+
+
+
+            </main>
+
+
+
+
+
+
+
+
+        </section>
+        <footer>
+            <img src="imagens/logo.png" alt="">
+            <span>PowerFit Serviços de Varejo do Brasil Ltda. | CNPJ 00.000.000/0000-00</span>
+            <span> aaaaaaaaa, 0000, aaaaaa a, aaa aaaaaa - aaaaaaa CEP: 00000-000| Fale conosco| ajuda-aaaaaaa@powerfit.com.b</span>
+            <span>Formas de pagamento aceitas: cartões de crédito (Visa, MasterCard, Elo ), cartões de débito (Visa e Elo), Boleto e Pix.</span>
+        </footer> 
+    </body>
+</html>
